@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
@@ -11,10 +12,14 @@ int main(void)
 	/* for loop to get alphabet character*/
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-        if (ch != 'q' && ch != 'e')
-        {
-		putchar(ch);
-        }
+		if (ch == 'e' || ch == 'q')
+		{
+			continue;
+		}
+		else
+		{
+			putchar(ch);
+		}
 	}
 	putchar('\n');
 	return (0);
