@@ -1,13 +1,23 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * Returns 1 if c is lowercase
- * Returns 0 otherwise
-*/
+ *_isalpha - chech if a char is lowercase
+ *@c: placeholder for a char
+ *
+ * Return: Always 1 if char is alpha and 0 otherwise
+ */
+
+
+
 int _isalpha(int c)
 {
-if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
-return (1);
-else
-return (0);
+	if (isalpha(c))
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+
 }
