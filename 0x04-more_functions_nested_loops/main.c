@@ -5,6 +5,6 @@
 */
 int main(void)
 {
-    printf("%d\n", mul(1, 4));
+    print_numbers();
     return (0);
 }
