@@ -1,12 +1,37 @@
 #include <stdio.h>
 
-int print_last_digit(int num)
+void jack_bauer(void)
 {
-    return (num%10);
+
+    for(int h = 0; h <= 23; h++)
+    {
+        for(int m = 0; m <= 59; m++)
+        {
+            if (h < 10)
+            {
+                printf("0%d", h);
+            }
+            if (h >= 10)
+            {
+                printf("%d", h);
+            }
+
+            if (m < 10)
+            {
+                printf(":0%d\n", m);
+            }
+            if (m >= 10)
+            {
+                printf(":%d\n", m);
+            }
+            
+        }
+    }
+
 }
 
 int main(void)
 {
-    printf("%d",print_last_digit(-987));
+    jack_bauer();
     return(0);
 }
