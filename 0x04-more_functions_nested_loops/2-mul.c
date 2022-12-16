@@ -1,11 +1,19 @@
 #include "main.h"
+
 /**
- * Write a function that multiplies two integers.
-*/
+ * mul - Entry point
+ *
+ * @a: a is a variable name
+ *
+ * @b: b is a variable name
+ *
+ * Return: Always 0 (Success)
+ */
 
 int mul(int a, int b)
 {
-int res;
-res = (a * b);
-return (res);
+int mult;
+
+mult = (a * b);
+return (mult);
 }
