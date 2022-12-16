@@ -1,45 +1,16 @@
 #include "main.h"
-
 /**
- * times_table - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
+ * prints the 9 times table, starting with 0.
+*/
 void times_table(void)
 {
-
-int a, b;
-int mult;
-
-for (a = 0; a <= 9; a++)
-{
-for (b = 0; b <= 9; b++)
-{
-mult = a * b;
-if (mult >= 10)
-{
-_putchar(' ');
-_putchar((mult / 10) + '0');
-_putchar((mult % 10) + '0');
-if (b != 9)
-{
-_putchar(',');
-}
-}
-else
-{
-if (b != 0)
-{
-_putchar(' ');
-_putchar(' ');
-}
-_putchar(mult + '0');
-if (b != 9)
-{
-_putchar(',');
-}
-}
-}
-_putchar('\n');
-}
+    for (int i = 0; i <= 9; i++)
+    {
+        int j;
+        for (j = 0; j < 9; j++)
+        {
+            printf("%d, ",i*j);
+        }
+        printf("%d$\n",i*j);
+    }
 }
