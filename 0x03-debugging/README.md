@@ -1,3 +1,1 @@
-## C - Debugging
-
-![Screenshot from 2022-12-16 23-25-05](https://user-images.githubusercontent.com/69214737/208191784-6e32ab4f-25a4-4c6e-8aa7-0f0301633816.png)
+![rubber-duck-debugging-and-psychology-sunglassed-rubber-duck-1272x848](https://user-images.githubusercontent.com/69214737/208193674-13fcceaf-3de4-45ce-aa81-f18e28f8d04c.jpg)
