@@ -1,37 +1,21 @@
 #include <stdio.h>
 
-void jack_bauer(void)
+void times_table(void)
 {
-
-    for(int h = 0; h <= 23; h++)
+    for (int i = 0; i <= 9; i++)
     {
-        for(int m = 0; m <= 59; m++)
+        int j;
+        for (j = 0; j < 9; j++)
         {
-            if (h < 10)
-            {
-                printf("0%d", h);
-            }
-            if (h >= 10)
-            {
-                printf("%d", h);
-            }
-
-            if (m < 10)
-            {
-                printf(":0%d\n", m);
-            }
-            if (m >= 10)
-            {
-                printf(":%d\n", m);
-            }
-            
+            printf("%d, ",i*j);
         }
+        printf("%d$\n",i*j);
     }
-
 }
+
 
 int main(void)
 {
-    jack_bauer();
+    times_table();
     return(0);
 }
