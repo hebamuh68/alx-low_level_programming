@@ -4,9 +4,9 @@
 */
 int _isupper(int c)
 {
-if (c >= 'A' || c <= 'Z')
+if (c >= 97 || c <= 122)
 {
-_putchar(1);
+_putchar(0);
 }
 else
 {
