@@ -2,19 +2,19 @@
 #include <stdio.h>
 #include <ctype.h>
 
-int _islower(int c)
+int _isalpha(int c)
 {
-    if (islower(c))
+    if (isalpha(c))
     {
-        return (0);
+        return(1);
     }
-    return (1);
+    return(0);
 }
 
 int main(void)
 {
-    int c = 'A';
-    printf("%d", _islower(c));
+    int c = 3;
+    printf("%d", _isalpha(c));
 
     return (0);
 }
