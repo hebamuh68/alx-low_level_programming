@@ -1,8 +1,25 @@
 #include "main.h"
+
 /**
- *  prints the last digit of a number.
-*/
-int print_last_digit(int num)
+ * print_last_digit - int c
+ *
+ * @c: c is a variable name
+ *
+ * Return: Always 0 (Success)
+ */
+int print_last_digit(int c)
 {
-    return (num%10);
+c = c % 10;
+
+if (c < 0)
+{
+c = (-1 * c);
+_putchar(c + '0');
+return (c);
+}
+else
+{
+_putchar(c + '0');
+return (c);
+}
 }
