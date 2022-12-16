@@ -1,18 +1,8 @@
 #include "main.h"
-
 /**
- * add - check the code for Holberton School students.
- *
- * @a: a is a variable name
- *
- * @b: b is a variable name
- *
- * Return: Always 0.
- */
-int add(int a, int b)
+ * Write a function that adds two integers and returns the result.
+*/
+int add(int num1, int num2)
 {
-int sum;
-
-sum = (a + b);
-return (sum);
+    return (num1 + num2);
 }
