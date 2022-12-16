@@ -1,19 +1,19 @@
 #include "main.h"
+
 /**
- * Write a function that checks for a digit (0 through 9).
-*/
+ * _isdigit - Entry point
+ *
+ * @c: c is a variable name
+ *
+ * Return: Always 0 (Success)
+ */
+
 int _isdigit(int c)
 {
-if (c >= 'A' && c <= 'Z')
-{
-_putchar(0);
-}
-else if (c >= 'a' && c <= 'z')
-{
-_putchar(0);
-}
+if (c >= 48 && c <= 57)
+return (1);
 else
-{
-_putchar(1);
-}
+return (0);
+
+return (0);
 }
