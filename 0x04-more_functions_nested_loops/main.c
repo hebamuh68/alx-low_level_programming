@@ -5,9 +5,6 @@
 */
 int main(void)
 {
-char c;
-
-    c = 'a';
-    printf("%c: %d\n", c, _isdigit(c));
+    printf("%d\n", mul(1, 4));
     return (0);
 }
